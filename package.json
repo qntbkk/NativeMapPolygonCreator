@@ -1,0 +1,30 @@
+{
+  "name": "nativemap",
+  "widgetName": "NativeMap",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "tbn2020",
+  "author": "qntbkk",
+  "config": {
+    "widgetPath": "./dist/MxTestProject/widgets",
+    "projectPath": "./dist/MxTestProject/"
+  },
+  "packagePath": "tbn",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:native",
+    "dev": "pluggable-widgets-tools start:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qntbkk/nativemap/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.10.1"
+  },
+  "dependencies": {}
+}

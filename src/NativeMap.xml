@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="tbn.nativemap.NativeMap" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Native Map</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="yourLatitude" type="attribute" required="true">
+                <caption>Latitude</caption>
+                <description>Please enter Latitude</description>
+                <attributeTypes>
+                    <attributeType name="Decimal"/>
+                </attributeTypes>
+            </property>
+            <property key="yourLongitude" type="attribute" required="true">
+                <caption>Longitudee</caption>
+                <description>Please enter Longitude</description>
+                <attributeTypes>
+                    <attributeType name="Decimal"/>
+                </attributeTypes>
+            </property>
+            <property key="yourLatitudeDelta" type="attribute" required="true">
+                <caption>Latitude Delta</caption>
+                <description>Please enter Latitude Delta</description>
+                <attributeTypes>
+                    <attributeType name="Decimal"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
